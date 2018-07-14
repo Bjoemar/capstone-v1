@@ -1,0 +1,637 @@
+video {
+height:100%;
+width: 100%;
+object-fit: cover;
+position: fixed;
+margin: auto;	
+z-index: -1;
+
+
+}
+
+.clear:after {
+	content:" ";
+	display: block;
+	clear: both;
+}
+#vid-banner {
+	min-height: 700px;
+	margin: 0;
+	padding: 0;
+}
+
+#my-nav {
+	position: fixed;
+	width: 100%;
+	padding: 20px;
+	background-color:rgba(0, 0, 0, 0.9);
+	z-index: 2;
+
+}
+
+#my-nav a {
+	font-size: 20px;
+	color: white;
+}
+
+#logo-here {
+	background: url(../images/logo/logo-banner.png);
+	height: 50px;
+	width: 200px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+
+}
+
+#nav-holder {
+	padding: 0;
+	margin: 0;
+	padding
+}
+#my-nav-item {
+	margin: 10px;
+}
+
+.banner-title{
+	margin: auto;
+	width: 100%;
+	text-align: center;
+	position: absolute;
+
+	margin-top: 300px;	
+	max-height: 300px;
+}
+
+#main-pl-holder {
+background-color:  rgba(0, 0, 0, 0.40);
+max-width: 1960px;
+height: 100%;
+
+}
+#main-pl-holder h2 {
+	text-align: center;
+	font-size: 50px;
+	color: white;
+}
+#main-pl-holder hr {
+	padding: 1px;
+	background-color: skyblue;
+	width: 50px;
+}
+#main-pl-holder button {
+	width: 20%;
+	background-color: rgba(0, 0, 0, 0.40);
+	color: white;
+}
+	
+
+.banner-title h1 {
+
+ 	color: white;
+ 	font-size: 50px;
+ 	font-family: 'Coda Caption', sans-serif;
+ 	
+}	
+
+
+.planet {
+	height: 500px;
+	width: 50%;
+	overflow: hidden;
+	opacity: 0.7;
+
+
+}
+.planet:hover{
+
+	width: 100%;
+		background-color: black;
+		opacity: 1.0;
+		transition: width 2s, opacity 2s;
+		animation-timing-function: ease-out;
+		
+}
+
+
+.pl-box {
+	margin-left: 50px;
+	width: 100%;
+	height: 100%;
+	
+
+}
+
+.text-holder1 {
+	width: 40%;
+	float: right;
+	color: white;
+	margin-right: 100px;
+	margin-top: 100px;
+
+}
+.planet-name {
+	color: white;
+	text-align: left;
+	font-size: 10px;
+	z-index: -1;
+
+	
+
+
+
+}
+
+
+.img-mercury{
+	background-image: url(../images/mercury.jpg);
+	height: 400px;
+	width: 400px;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	border-radius: 400px;
+	float: left;
+	
+	
+}
+
+.planet1 {
+	height: 500px;
+	width: 50%;
+	overflow: hidden;
+	opacity: 0.7;
+	float: right;
+
+
+}
+.planet1:hover{
+
+	width: 100%;
+		background-color: black;
+		opacity: 1.0;
+		transition: width 2s, opacity 2s;
+		animation-timing-function: ease-out;
+		
+}
+
+
+.pl-box1 {
+	margin-left: 50px;
+	width: 100%;
+	height: 100%;
+	
+
+}
+
+.text-holder2 {
+	width: 40%;
+	float: left;
+	color: white;
+	margin-left: 20px;
+	margin-top: 100px;
+
+}
+
+.planet-name1 h1 {
+	font-size: 50px;
+	padding: 2px;
+	margin-left: 120px;
+	color:white;
+
+
+}
+
+.img-mercury1{
+	background-image: url(../images/venus.jpg);
+	height: 400px;
+	width: 400px;
+	margin-right: 100px;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	border-radius: 400px;
+	float: right;
+	
+}
+.planet-button {
+	text-align: center;
+	border: 2px solid skyblue;
+	border-radius: 10px;
+	
+	}
+.pl-sl-hl {
+
+	text-align: center;
+	padding: 30px;
+}
+#gallery {
+	overflow: hidden;	
+	height: 700px;
+	text-align: center;
+	background-color: rgba(0, 0, 0, 0.70);
+	
+}
+#img1 {
+	background-image: url(../images/gallery-pic1.jpg);
+
+}
+#img2 {
+	background-image: url(../images/gallery-pic2.jpg);
+
+
+	
+}
+#img3 {
+	background-image: url(../images/gallery-pic3.jpg);
+
+
+
+}
+#img4 {
+	background-image: url(../images/gallery-pic4.jpg);
+
+}
+#img5 {
+	background-image: url(../images/gallery-pic5.jpg);
+
+
+
+}
+
+.img-g {
+	display: inline-block;
+	max-height: 600px;
+	height: 500px;
+	width: 200px;
+	background-repeat: no-repeat;
+	background-position: center;
+	opacity: 0.6;
+	background-size: cover;
+	margin: 10px;
+	z-index: -5;
+
+
+
+	}
+	.zoom:hover {
+		transform:scale(1.2,1.2);
+		opacity: 1.0;
+		z-index: 5555555;
+		transition: transform 0.5s;
+
+		
+	}
+
+#about-holder {
+	background-color: rgba(0, 0, 0, 0.80);
+
+}	
+
+#about 	{
+	text-align: center;
+	color: white;
+	width: 70%;
+	
+
+}
+
+.about-logo{
+	background-image: url(../images/astrologo2.png);
+	height: 200px;
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 200px;
+	margin: auto;
+	border-radius: 100px;
+
+	padding: 0;
+
+}
+
+#proj-holder {
+	color: white;
+	
+	
+	background-color: rgba(0, 0, 0, 0.90);
+}
+
+#proj-holder h2 {
+	text-align: center;
+}
+#proj-list{
+
+
+	
+}
+.proj {
+	margin: auto;
+}
+
+.proj1 {
+	background-image:url(../images/proj-ss/port-ss.jpg); 
+	height: 300px;
+	background-position: center;
+	width: 300px;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+
+}
+.proj1 , .proj1-cont {
+	margin: 20px;
+}
+
+
+#footer-holder {
+	padding: 0;
+	background-color: black;
+	text-align: center;
+
+
+}
+
+.foot-con-1 a{
+	display: block;
+	margin: 10px;
+	border-left: 1px solid blue;
+	
+}
+
+.foot-con-1 h2{
+	color: white;
+	font-size: 20px;
+	margin: 20px;
+
+}
+.foot-con-1 hr {
+	width: 20%;
+	background-color: white;
+}
+
+#footer1 {
+	background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0,0,0,0.75)),url(../images/footer-banner.jpeg);
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin: auto;
+	padding: 50px;	
+
+}
+#footer2  {
+height: 100%;
+margin: auto;
+padding: 50px;
+text-align: center;
+
+}
+#footer2 h2{
+	font-size: 15px;
+	color: white;
+	text-align: center;
+}
+#footer2 p {
+	color: white;
+}
+
+
+#footer-holder1 {
+	height: 100%;
+	background-color: black;
+	}
+
+
+
+.soc-med {
+	display: inline-block;
+
+}
+
+.my-fb{
+	background-image: url(../images/logo/fb-logo.png);
+	height: 25px;
+	width: 25px;
+	background-size: cover;
+}
+.my-google{
+	background-image: url(../images/logo/fb-logo.png);
+	height: 25px;
+	width: 25px;
+	background-size: cover;
+}
+.my-instagram{
+	background-image: url(../images/logo/fb-logo.png);
+	height:25px;
+	width: 25px;
+	background-size: cover;
+}
+.my-twitter{
+	background-image: url(../images/logo/fb-logo.png);
+	height: 25px;
+	width: 25px;
+	background-size: cover;
+}
+
+
+
+
+
+/*-----------------------------------------------------*/
+
+
+@media (max-width: 640px){
+	
+	#main-pl-holder {
+		width: 100%;
+		height: 50%;
+		text-align: center;
+		margin: auto;
+	}
+
+	.img-mercury {
+		height: 200px;
+		width: 200px;
+		margin: 0 auto;
+		margin-left: 25px;
+
+
+	}
+	.pl-box {
+		text-align: center;
+		    margin-left: 40px;
+	}
+	.planet {
+		width: 100%;
+		height: 100%;	
+		overflow: hidden;
+		margin: 0 auto;
+		opacity: 0.5;
+	}
+
+	.planet:active {
+		transform: scale(1.1,1.1);
+		transition: transform 2s;
+	}
+
+
+
+	.text-holder1 {
+		    float: left;
+	width: 80%;
+	margin: auto;
+	color: white;
+	text-align: center;
+	  margin-left: 0px;
+    margin-right: 0px;
+	
+	}
+
+
+	.text-holder1 h1 {
+		text-align: center;
+		font-size: 30px;
+	}
+	#main-pl-holder button {
+	width: 40%;
+	background-color: rgba(0, 0, 0, 0.40);
+	color: white;
+	margin-bottom: 50px;
+}
+
+
+
+	.img-mercury1 {
+		height: 200px;
+		width: 200px;
+		margin: 0 auto;
+		margin-left: 25px;
+		float: none;
+
+
+	}
+	.pl-box1 {
+		text-align: center;
+		    margin-left: 40px;
+	}
+	.planet1 {
+		width: 100%;
+		height: 100%;
+		overflow: hidden;
+		margin: 0 auto;
+	}
+
+	.planet1:active{
+
+	opacity: 1.0;
+	transform: scale(1.1,1.1);
+	transition: transform 2s;
+		
+}
+
+	.text-holder2 {
+		    float: left;
+	width: 80%;
+	margin: auto;
+	color: white;
+	text-align: center;
+	  margin-left: 0px;
+    margin-right: 0px;
+	
+	}
+
+
+	.text-holder2 h1 {
+		text-align: center;
+		font-size: 30px;
+	}
+
+
+
+}
+
+
+@media (min-width: 768px) and (max-width: 991.98px){
+		.img-mercury {
+		height: 300px;
+		width: 300px;
+		margin: 0 auto;
+		margin-left: 25px;
+
+
+	}
+
+	.planet {
+		height: 300px;
+
+	}
+	.pl-box {
+		margin-left: 20px;
+
+			}
+
+	.text-holder1 {
+	 margin-top: 5px;
+   margin-right: 50px;
+	}
+	.text-holder1 p {
+    font-size: 12px;
+	}
+
+	#main-pl-holder button {
+		width: 40%;
+
+	}
+
+	.img-mercury1{
+		height: 300px;
+		width: 300px;
+		margin: 0 auto;
+		margin-left: 25px;
+		margin-right: 20px;
+
+
+	}
+
+	.planet1 {
+		height: 300px;
+
+	}
+	.pl-box1 {
+		margin-left: 20px;
+
+			}
+
+	.text-holder2 {
+	 margin-top: 5px;
+   margin-right: 50px;
+	}
+	.text-holder2 p {
+    font-size: 12px;
+	}
+
+	#main-pl-holder button {
+		width: 40%;
+
+	}
+
+
+
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px){
+
+}
+
+@media and (max-width: 1200px){
+
+}
+
+
+
+
+
+
