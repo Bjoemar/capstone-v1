@@ -1,0 +1,101 @@
+#planets {
+	background-color:black;
+	height: auto;
+	width: 100%;
+	padding: 0;
+	
+}
+
+.pl-banner {
+	background-image: black;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 100vh;
+	width: 100%;
+
+}
+#bground {
+
+	height: 100%;
+	width: 100%;
+	background:linear-gradient(rgba(0, 0, 0, 0.10), rgba(0,0,0,0.10)),url(../images/gallery-img/gal-bg.jpeg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	position: absolute;
+	
+
+}
+
+.content {
+	color: white;
+}
+.sbar {
+	border: 1px solid white;
+	border-top: none;
+	display: block;
+	height: 100vh;
+	position: fixed;
+	width: 15%;
+
+
+	
+}
+
+.sbar h2 {
+	color: white;
+	text-align: center;
+}
+.sbar a  {
+	display: block;
+	text-align: center;
+	margin: auto;
+	margin-bottom: 20px;
+}
+.stoper {
+	height: 100px;
+	background-color: black;
+	width: 100%;
+
+}
+.mercury-img {
+	background: url(../images/mercury.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 300px;
+	width: 300px;
+}
+
+
+
+#my-nav a {
+	font-size: 20px;
+	color: white;
+}
+#nav-holder {
+	padding: 0;
+	margin: 0;
+	padding
+}
+#my-nav-item {
+	margin: 10px;
+}
+#my-nav {
+	position: fixed;
+	width: 100%;
+	padding: 20px;
+	background-color:rgba(0, 0, 0, 0.9);
+	z-index: 2;
+
+}
+#logo-here {
+	background: url(../images/logo/logo-banner.png);
+	height: 50px;
+	width: 200px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+
+}
