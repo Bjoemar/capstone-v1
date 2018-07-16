@@ -1,3 +1,8 @@
+* {
+	
+font-family: 'Cormorant Unicase', serif;
+}
+
 #planets {
 	background-color:black;
 	height: auto;
@@ -6,15 +11,7 @@
 	
 }
 
-.pl-banner {
-	background-image: black;
-	background-size: contain;
-	background-repeat: no-repeat;
-	background-position: center;
-	height: 100vh;
-	width: 100%;
 
-}
 #bground {
 
 	height: 100%;
@@ -31,17 +28,7 @@
 .content {
 	color: white;
 }
-.sbar {
-	border: 1px solid white;
-	border-top: none;
-	display: block;
-	height: 100vh;
-	position: fixed;
-	width: 15%;
 
-
-	
-}
 
 .sbar h2 {
 	color: white;
@@ -60,7 +47,71 @@
 
 }
 .mercury-img {
-	background: url(../images/mercury.jpg);
+	background: url(../images/planets-img/mercury.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 300px;
+	width: 300px;
+}
+.venus-img {
+	background: url(../images/planets-img/venus.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 300px;
+	width: 300px;
+}
+.earth-img {
+	background: url(../images/planets-img/earth.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 300px;
+	width: 300px;
+}
+.mars-img {
+	background: url(../images/planets-img/mars.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 300px;
+	width: 300px;
+}
+.jupiter-img {
+	background: url(../images/planets-img/jupiter.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 300px;
+	width: 300px;
+}
+.saturn-img {
+	background: url(../images/planets-img/saturn.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 300px;
+	width: 300px;
+}
+.uranus-img {
+	background: url(../images/planets-img/uranus.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 300px;
+	width: 300px;
+}
+.neptune-img {
+	background: url(../images/planets-img/neptune.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 300px;
+	width: 300px;
+}
+.pluto-img {
+	background: url(../images/planets-img/pluto.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -98,4 +149,163 @@
 	background-position: center;
 	background-size: contain;
 
+}
+
+#footer-holder {
+	padding: 0;
+	background-color: black;
+	text-align: center;
+
+
+}
+
+.foot-con-1 a{
+	display: block;
+	margin: 10px;
+	border-left: 1px solid blue;
+	
+}
+
+.foot-con-1 h2{
+	color: white;
+	font-size: 20px;
+	margin: 20px;
+
+}
+.foot-con-1 hr {
+	width: 20%;
+	background-color: white;
+}
+
+#footer1 {
+	background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0,0,0,0.75)),url(../images/footer-banner.jpeg);
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin: auto;
+	padding: 50px;	
+
+}
+#footer2  {
+height: 100%;
+margin: auto;
+padding: 50px;
+text-align: center;
+
+
+}
+#footer2 h2{
+	font-size: 18px;
+	color: white;
+	text-align: center;
+}
+#footer2 p {
+	color: white;
+}
+
+
+#footer-holder1 {
+	height: 100%;
+	background-color:rgba(0, 0, 0, 0.95);
+	}
+
+
+
+.soc-med {
+	display: inline-block;
+
+}
+
+.ex-area, .my-contact, .soc-area, .comt-area {
+	margin-bottom:20px; 
+	border-left: 1px solid blue;
+}
+.ex-area {
+	border-left: none;
+}
+
+.my-fb{
+	background-image: url(../images/logo/fb-logo.png);
+	height: 20px;
+	width: 20px;
+	background-size: cover;
+}
+.my-google{
+	background-image: url(../images/logo/fb-logo.png);
+	height: 20px;
+	width: 20px;
+	background-size: cover;
+}
+.my-instagram{
+	background-image: url(../images/logo/fb-logo.png);
+	height:20px;
+	width: 20px;
+	background-size: cover;
+}
+.my-twitter{
+	background-image: url(../images/logo/fb-logo.png);
+	height: 20px;
+	width: 20px;
+	background-size: cover;
+}
+
+.ex-area {
+	overflow: hidden;
+}
+
+
+.comt-area {
+	overflow: hidden;
+}
+
+#last-footer {
+	color: white;
+	background-color: black;
+	margin: auto;
+
+}
+#footer-holder2 {
+	padding-left: 0;
+	background-color: black;
+	margin: auto;
+
+
+
+}
+
+.footer-title {
+	text-align: center;
+}
+
+.copy-sec {
+	text-align: right;
+
+}
+
+#last-footer h2  {
+	font-size: 20px;
+	opacity: 0.4;
+}
+
+#last-footer p , small {
+	margin-bottom: 0;
+	font-size: 8px;
+	opacity: 0.4;
+}	
+
+@media (max-width: 640px) {
+		.blog-sec{
+		text-align: center;
+	}
+
+	.footer-title {
+		    margin-left: 0px;
+	}
+	.copy-sec{
+		    margin-left: 0px;
+		    text-align: center;
+	}
 }

@@ -3,19 +3,7 @@
 font-family: 'Cormorant Unicase', serif;
 }
 
-#bground {
 
-	height: 100%;
-	width: 100%;
-	background:linear-gradient(rgba(0, 0, 0, 0.10), rgba(0,0,0,0.10)),url(../images/gallery-img/gal-bg.jpeg);
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
-	padding-left: 0;
-
-	
-
-}
 
 #my-nav {
 	position: fixed;
@@ -44,83 +32,51 @@ font-family: 'Cormorant Unicase', serif;
 #nav-holder {
 	padding: 0;
 	margin: 0;
-	padding
+	padding:0;
 }
 #my-nav-item {
 	margin: 10px;
 }
 
-#astro-sec h2 {
+
+
+#bground {
+	background-color: black;
+	height: 100vh;
+
+
+
+}
+#bground h2 {
 	color: white;
+	font-size: 30px;
 	text-align: center;
-	padding-top: 150px;
-	padding-bottom: 0;
+	padding-top: 300px;
+
 }
-#astro-sec hr {
-	width: 5%;
+
+#bground hr {
 	background-color: blue;
-}
-
-.cell {
-	height: 1000px;
-	overflow: hidden;
-
+	width: 10%;
 
 }
-.img-a1 {
+
+
+
+#form-holder {
+	color: white;
 	
-	height: 500px;
-	width: 250px;
-	background: url(../images/gallery-img/a1.jpg);
-	margin: auto;
-	margin-bottom: 10px;
-	background-size: cover;
-	border:4px solid white;
 }
 
-.img-a2 {
-	
-	height: 250px;
-	width: 250px;
-	background: url(../images/gallery-img/a1.jpg);
-	margin: auto;
-	margin-bottom: 10px;
-	background-size: cover;
-	border:4px solid white;
-}
-
-.img-a3 {
-	
-	height: 165px;
-	width: 250px;
-	background: url(../images/gallery-img/a1.jpg);
-	margin: auto;
-	margin-bottom: 10px;
-	background-size: cover;
-	border:4px solid white;
-}
-
-.img-a1:hover ,.img-a2:hover, .img-a3:hover {
-	transform: scale(1.2,1.6);
-	transition: transform 1s;
-
-
-
-}
-
-.sc {
-	
-	width: 300px;
-	margin: auto;
-	height: 500px;
-
-}
-
-#more{
-	color: black;
+.button-holder {
 	text-align: center;
-	background-color: white;
+	width: 100%;
+	padding-top: 20px;
 }
+.button-holder button {
+	width: 50%;
+}
+
 #footer-holder {
 	padding: 0;
 	background-color: black;
@@ -278,4 +234,12 @@ text-align: center;
 		    margin-left: 0px;
 		    text-align: center;
 	}
+
+	#bground {
+	background-color: black;
+	height: 800px;
+
+
+
+}
 }

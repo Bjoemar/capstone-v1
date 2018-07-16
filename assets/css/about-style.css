@@ -3,19 +3,16 @@
 font-family: 'Cormorant Unicase', serif;
 }
 
-#bground {
 
-	height: 100%;
+
+
+#main-holder {
+	background-color: black;
+	color: white;
 	width: 100%;
-	background:linear-gradient(rgba(0, 0, 0, 0.10), rgba(0,0,0,0.10)),url(../images/gallery-img/gal-bg.jpeg);
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
-	padding-left: 0;
-
-	
-
+	height: 100%;
 }
+
 
 #my-nav {
 	position: fixed;
@@ -44,83 +41,34 @@ font-family: 'Cormorant Unicase', serif;
 #nav-holder {
 	padding: 0;
 	margin: 0;
-	padding
+	padding:0;
 }
 #my-nav-item {
 	margin: 10px;
 }
 
-#astro-sec h2 {
-	color: white;
+#main-holder hr {
+	background-color: black;
+
+
+
+}
+#main-holder p {
+ font-size: 20px;
+ border:2px groove skyblue;
+	
+}
+
+#main-holder h2 	 {
 	text-align: center;
-	padding-top: 150px;
-	padding-bottom: 0;
-}
-#astro-sec hr {
-	width: 5%;
-	background-color: blue;
 }
 
-.cell {
-	height: 1000px;
-	overflow: hidden;
-
-
-}
-.img-a1 {
-	
-	height: 500px;
-	width: 250px;
-	background: url(../images/gallery-img/a1.jpg);
-	margin: auto;
-	margin-bottom: 10px;
-	background-size: cover;
-	border:4px solid white;
-}
-
-.img-a2 {
-	
-	height: 250px;
-	width: 250px;
-	background: url(../images/gallery-img/a1.jpg);
-	margin: auto;
-	margin-bottom: 10px;
-	background-size: cover;
-	border:4px solid white;
-}
-
-.img-a3 {
-	
-	height: 165px;
-	width: 250px;
-	background: url(../images/gallery-img/a1.jpg);
-	margin: auto;
-	margin-bottom: 10px;
-	background-size: cover;
-	border:4px solid white;
-}
-
-.img-a1:hover ,.img-a2:hover, .img-a3:hover {
-	transform: scale(1.2,1.6);
-	transition: transform 1s;
-
-
-
-}
-
-.sc {
-	
-	width: 300px;
-	margin: auto;
-	height: 500px;
-
-}
-
-#more{
-	color: black;
+#main-holder h1 {
+	padding-top: 200px;
 	text-align: center;
-	background-color: white;
+	padding-bottom: 50px;
 }
+
 #footer-holder {
 	padding: 0;
 	background-color: black;
@@ -266,7 +214,8 @@ text-align: center;
 	opacity: 0.4;
 }	
 
-@media (max-width: 640px) {
+
+@media (max-width: 640px;) {
 		.blog-sec{
 		text-align: center;
 	}
@@ -278,4 +227,25 @@ text-align: center;
 		    margin-left: 0px;
 		    text-align: center;
 	}
+
+	#main-holder {
+	background-color: black;
+	color: white;
+	width: 100%;
+	height: 2200px;
+}
+
+
+@media (min-width: 992px) and (max-width: 1199.98px){
+		#main-holder {
+	background-color: black;
+	color: white;
+	width: 100%;
+	height: 1100px;
+}
+
+}
+
+
+
 }

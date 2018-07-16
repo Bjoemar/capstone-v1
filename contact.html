@@ -1,7 +1,6 @@
 <!DOCTYPE html>
-<html>
-<head lang="en">
-
+<html lang="en">
+<head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, shrink-to-fit=no">
 	<meta http-equiv="X-UA-Compatible" contenteditable="IE=Edge">
@@ -12,18 +11,19 @@
 	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
 
 	<!-- external css -->
-	<link rel="stylesheet" type="text/css" href="assets/css/gallery-style.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/contact-style.css">
 
 	<!-- google fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Coda+Caption:800" rel="stylesheet">
 
 	<link rel="icon" type=".jpg/.png" href="assets/images/astrologo2.png">
-	<title></title>
+
+
 </head>
 <body>
+	<div class="container-fluid" id="bground">
 
-		<div class="container-fluid" id="bground">
-				<nav class="navbar navbar-expand-lg navbar-dark " id="my-nav">
+		<nav class="navbar navbar-expand-lg navbar-dark " id="my-nav">
 			 <a class="navbar-brand" id="logo-here"></a>
 			 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
    				 <span class="navbar-toggler-icon" ></span>
@@ -34,7 +34,7 @@
 				        <a class="nav-link" id="my-nav-item" href="index.html" target="#_blank">Home</a>
 				      </li>
 				      <li class="nav-item">
-				        <a class="nav-link"  id="my-nav-item" href="planets.html">Planets</a>
+				        <a class="nav-link"  id="my-nav-item"href="#">Planets</a>
 				      </li>
 				      <li class="nav-item">
 				        <a class="nav-link" id="my-nav-item" href="gallery.html" target="#_blank">Gallery</a>
@@ -48,36 +48,35 @@
 					</ul>
 				</div>
 		</nav>
-		<div class="container" id="astro-sec">
-			<h2>Gallery</h2>
-			<hr>
-		</div>
-		
-		<div class="cell row">
-			<div class="col3 sc ">
-				<div class="col12 img-a1">
-					
-				</div>
-			</div>
 
-			<div class="col3 sc ">
-				<div class="col12 img-a2"></div>
-				<div class="col12 img-a2"></div>
-			</div>
+		<h2>Contact Us</h2>
+				<hr>
+	<div class="container" id="form-holder">
+		<form>
+  <div class="form-group">
+    <label for="email">Email</label>
+    <input type="text" class="form-control" id="email" placeholder="Type Email address">
+  </div>
+  <div class="form-group">
+    <label for="number">Contact Number</label>
+    <input type="number" class="form-control" id="number" placeholder="Contact Number">
+  </div>
+    <div class="form-group">
+    <label for="address">Address</label>
+    <input type="text" class="form-control" id="address" placeholder="Your address">
+  </div>
+    <div class="form-group">
+    <label for="message">Message</label>
+    <textarea class="form-control" placeholder="Your comment here"></textarea>
+    <div class="button-holder">
+    <button type="button" class="btn btn-outline-primary">Send</button>
+    </div>
+      <hr>
+  </div>
 
-			<div class="col3 sc ">
-				<div class="col12 img-a3"></div>
-				<div class="col12 img-a3"></div>
-				<div class="col12 img-a3"></div>
-			</div>
+</form>
 
-			<div class="col3 sc ">
-				<div class="col12 img-a1"></div>
-			</div>
-		</div>
-	
-		<h2 id="more">More Picture Soon</h2>
-	
+	</div>
 	</div>
 
 	<div class="container-fluid" id="footer-holder">
@@ -181,12 +180,6 @@
 
 
 
-
-
-
-
-
-
 <!-- jquery firts, then popper.js then bootstrap -->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
@@ -195,4 +188,5 @@
 <!-- external bootstrap js -->
 <script src="assets/js/bootstrap.min.js"></script>
 </body>
+
 </html>
