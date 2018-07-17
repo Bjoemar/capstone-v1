@@ -43,6 +43,8 @@ font-family: 'Cormorant Unicase', serif;
 #bground {
 	background-color: black;
 	height: 800px;
+	padding-left: 0;
+	padding-right: 0;
 
 
 

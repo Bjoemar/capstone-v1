@@ -493,8 +493,12 @@ text-align: center;
 	margin-bottom: 0;
 	font-size: 8px;
 	opacity: 0.4;
+	text-align: center;
 }	
 
+	#email-txt {
+	width: 130px;
+}
 
 
 
@@ -635,6 +639,8 @@ text-align: center;
 
 	}
 
+
+
 	.planet {
 		height: 300px;
 
@@ -693,7 +699,7 @@ text-align: center;
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px){
-
+	
 }
 
 @media and (max-width: 1200px){
