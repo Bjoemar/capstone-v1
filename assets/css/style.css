@@ -232,7 +232,7 @@ height: 100%;
 }
 #gallery {
 	overflow: hidden;	
-	height: 700px;
+	height: auto;
 	text-align: center;
 	background-color: rgba(0, 0, 0, 0.70);
 	color: white;
@@ -268,7 +268,7 @@ height: 100%;
 .img-g {
 	display: inline-block;
 	max-height: 600px;
-	height: 500px;
+	height: 400px;
 	width: 200px;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -507,7 +507,7 @@ text-align: center;
 
 /*-----------------------------------------------------*/
 
-
+ /*for phone*/
 @media (max-width: 640px){
 	
 	#main-pl-holder {

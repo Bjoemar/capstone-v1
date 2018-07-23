@@ -61,6 +61,10 @@ font-family: 'Cormorant Unicase', serif;
 	background-color: blue;
 }
 
+#gal-img-holder {
+	height: 100%;
+}
+
 .cell {
 	height: 1000px;
 	overflow: hidden;

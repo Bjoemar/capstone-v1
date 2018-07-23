@@ -308,4 +308,9 @@ text-align: center;
 		    margin-left: 0px;
 		    text-align: center;
 	}
+	.pl-size {
+		height: 150px;
+		width: 150px;
+	}
+
 }
